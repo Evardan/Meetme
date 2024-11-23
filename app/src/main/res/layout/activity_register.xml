@@ -1,0 +1,82 @@
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/registerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold" />
+
+    <!-- Name Field -->
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Confirm Password Field -->
+    <EditText
+        android:id="@+id/confirmPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:padding="12dp" />
+
+    <!-- Lottie Animation -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:lottie_rawRes="@raw/animation_success"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        android:visibility="gone" />
+
+    <!-- Name der JSON-Datei ohne .json -->
+
+
+</LinearLayout>

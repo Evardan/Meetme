@@ -38,5 +38,21 @@
         android:background="@color/purple_500"
         android:textColor="#FFFFFF"
         android:padding="12dp" />
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:padding="12dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+
+        android:id="@+id/locationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Location" />
+
+
 
 </LinearLayout>
